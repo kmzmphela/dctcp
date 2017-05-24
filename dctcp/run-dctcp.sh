@@ -34,7 +34,7 @@ function dctcp {
 }
 
 for bw in $bws; do
-    tcp $bw
+    #tcp $bw
     #ecn $bw
-    #dctcp $bw
+    dctcp $bw
 done
